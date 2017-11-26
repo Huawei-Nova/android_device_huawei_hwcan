@@ -200,6 +200,7 @@ TARGET_RIL_VARIANT := caf
 WITH_SU := true
 
 # SELinux
+BOARD_SEPOLICY_DIRS += device/huawei/hwcan/sepolicy
 include device/qcom/sepolicy/sepolicy.mk
 
 # Sensors
